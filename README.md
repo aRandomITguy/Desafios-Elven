@@ -23,7 +23,7 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 2. Instale o Python 3 utilizando o comando `sudo apt install python3` para sistemas Linux baseados em Ubuntu ou `sudo dnf install python3` para sistemas baseados em Red Hat.
 3. Instale o pip utilizando o comando sudo `apt install python3-pip` ou `sudo dnf install python3-pip`.
 4. Instale o Flask utilizando o comando `pip install flask`.
-5. Acesse a pasta onde o `app.py` está e execute com o comando python3 app.py.
+5. Acesse a pasta onde o `app.py` está e execute com o comando `python3 app.py`.
 
 ## Proximos passos 
 - [ ] Local
