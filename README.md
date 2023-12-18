@@ -19,11 +19,14 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 
 ## Executando aplicação pelo terminal Linux Ubuntu ou Red Hat
 
-1. Atualize o gerenciador de pacotes utilizando o comando `sudo apt update` para sistemas Linux baseados em Ubuntu ou `sudo yum update` para sistemas baseados em Red Hat.
-2. Instale o Python 3 utilizando o comando `sudo apt install python3` para sistemas Linux baseados em Ubuntu ou `sudo dnf install python3` para sistemas baseados em Red Hat.
-3. Instale o pip utilizando o comando sudo `apt install python3-pip` ou `sudo dnf install python3-pip`.
-4. Instale o Flask utilizando o comando `pip install flask`.
-5. Acesse a pasta onde o `app.py` está e execute com o comando `python3 app.py`.
+1. Realize o clone do github para o seu sistema e acesse a pasta com o script pelo terminal.
+2. Atualize o gerenciador de pacotes utilizando o comando `sudo apt update` para sistema Linux baseados em Ubuntu ou `sudo yum update` para sistemas baseados em Red Hat.
+3. Instale o Python 3 utilizando o comando `sudo apt install python3` para sistema Linux baseados em Ubuntu ou `sudo dnf install python3` para sistemas baseados em Red Hat.
+4. Instale o pip utilizando o comando sudo `apt install python3-pip` ou `sudo dnf install python3-pip`.
+5. Crie um ambiente virtual utilizando o comando `python3 -m venv venv`.
+6. Acesse o ambiente virtual com o comando `source venv/bin/activate`.
+7. Instale todas as dependências utilizando o comando `pip install -r requirements.txt`.
+8. Execute o script com o comando `python3 app.py`.
 
 ## Proximos passos 
 - [ ] Local
