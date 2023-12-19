@@ -29,6 +29,6 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 8. Execute o script com o comando `python3 app.py`.
 
 ## Proximos passos 
-- [ ] Local
+- [ x] Local - DONE
 - [ ] Docker
 - [ ] K8S
