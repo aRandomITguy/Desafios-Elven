@@ -1,0 +1,24 @@
+version: '3'
+
+networks:
+  nginx-python:
+    driver: bridge
+
+services:
+  python-app:
+    container_name: python-app
+    networks:
+      - nginx-python
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+
+  nginx-server:
+    container_name: nginx-server
+    networks:
+      - nginx-python
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "8080:80"

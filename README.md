@@ -33,9 +33,7 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 1. Realize o clone do github para o seu sistema e acesse a pasta com o script pelo terminal.
 2. Atualize o gerenciador de pacotes utilizando o comando `sudo apt update` para sistema Linux baseados em Ubuntu ou `sudo yum update` para sistemas baseados em Red Hat.
 3. Instale o Docker utilizando o comando `sudo apt install docker -y` para sistema Linux baseados em Ubuntu ou `sudo yum install Docker` para sistemas baseados em Red Hat.
-4. Crie a imagem docker com o comando `docker build -t app-desafios-elven:1.0 .`.
-5. Execute a imagem docker com o comando `docker run -p 8080:5000 -it --rm --name app-desafios-elven-running app-desafios-elven:1.0`
-6. Acesse a aplicação flask no seu navegador no endereço `127.0.0.1:8080`
+4. Execute o docker compose com o comando `docker-compose up -d`
 
 ## Proximos passos 
 - [ x] Local - DONE
