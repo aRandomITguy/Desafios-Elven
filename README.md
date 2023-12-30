@@ -36,6 +36,8 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 4. Execute o docker compose com o comando `docker-compose up -d`
 
 ## Proximos passos 
-- [ x] Local - DONE
-- [ ] Docker
+- [x] Local 
+- [x] GIT 
+- [x] Docker
+- [ ] IAC
 - [ ] K8S
