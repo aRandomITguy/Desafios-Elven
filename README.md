@@ -32,8 +32,16 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 
 1. Realize o clone do github para o seu sistema e acesse a pasta com o script pelo terminal.
 2. Atualize o gerenciador de pacotes utilizando o comando `sudo apt update` para sistema Linux baseados em Ubuntu ou `sudo yum update` para sistemas baseados em Red Hat.
-3. Instale o Docker utilizando o comando `sudo apt install docker -y` para sistema Linux baseados em Ubuntu ou `sudo yum install Docker` para sistemas baseados em Red Hat.
+3. Instale o Docker utilizando o comando `sudo apt install docker* -y` para sistema Linux baseados em Ubuntu ou `sudo yum install docker* -y` para sistemas baseados em Red Hat.
 4. Execute o docker compose com o comando `docker-compose up -d`
+
+## Executando aplicação via Terraform
+
+1. Realize o clone do github para o seu sistema e acesse a pasta com o script pelo terminal.
+2. Instale o terraform com o comando `sudo apt install terraform` para sistema Linux baseados em Ubuntu ou `sudo yum terraform` para sistemas baseados em Red Hat.
+3. Inicie o terraform com o comando `terraform init`.
+4. Execute o plano do terraform com o comando `terraform plan`.
+5. Aplique o terraform com o comando `terraform apply`.
 
 ## Proximos passos 
 - [x] Local 
