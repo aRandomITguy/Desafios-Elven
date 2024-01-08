@@ -47,5 +47,5 @@ Neste desafio, vamos criar uma aplicação em Python que será capaz de retornar
 - [x] Local 
 - [x] GIT 
 - [x] Docker
-- [x] IAC
+- [ ] IAC
 - [ ] K8S
